@@ -17,7 +17,7 @@ def text_to_speech_with_gtts_old(input_text, output_filepath):
     audioobj.save(output_filepath)
 
 
-input_text="Hi This is Atharva Raut. owner of RCOEM!"
+input_text="Hi This is Atharva Raut. from of RCOEM!"
 #text_to_speech_with_gtts_old(input_text=input_text, output_filepath="gtts_testing.mp3")
 
 #Step1b: Setup Text to Speech–TTS–model with ElevenLabs (UPDATED)
@@ -127,7 +127,7 @@ def text_to_speech_with_elevenlabs(input_text, output_filepath):
     
     # Use the new text_to_speech.convert() method
     audio = client.text_to_speech.convert(
-        voice_id="TC0Zp7WVFzhA8zpTlRqV",  # Aria voice ID
+        voice_id="UzYWd2rD2PPFPjXRG3Ul",  # Aria voice ID
         output_format="mp3_22050_32",
         text=input_text,
         model_id="eleven_turbo_v2"
@@ -154,16 +154,6 @@ def text_to_speech_with_elevenlabs(input_text, output_filepath):
         print(f"An error occurred while trying to play the audio: {e}")
 
 #text_to_speech_with_elevenlabs(input_text, output_filepath="elevenlabs_testing_autoplay.mp3")
-
-
-
-
-
-
-
-
-
-
 
 
 

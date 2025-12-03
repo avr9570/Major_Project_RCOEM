@@ -50,3 +50,5 @@ def analyze_image_with_query(query, model, encoded_image):
     )
 
     return chat_completion.choices[0].message.content
+
+

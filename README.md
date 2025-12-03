@@ -1,5 +1,5 @@
 # Project Setup Guide
-
+# https://console.groq.com/docs/deprecations
 This guide provides step-by-step instructions to set up your project environment, including the installation of FFmpeg and PortAudio across macOS, Linux, and Windows, as well as setting up a Python virtual environment using Pipenv, pip, or conda.
 
 ## Table of Contents
